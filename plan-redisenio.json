@@ -1,0 +1,16 @@
+{
+  "status": "not-started",
+  "title": "Plan para rediseño tipo seanhalpin.xyz",
+  "steps": [
+    "Analizar estructura y secciones principales del sitio de ejemplo (Work, About, Contact)",
+    "Definir paleta de colores personalizada (azules, negros, blancos)",
+    "Crear nuevo index.html con estructura similar: header minimalista, secciones separadas, menú fijo",
+    "Agregar transiciones suaves y tipografía moderna (Inter, Segoe UI, Arial)",
+    "Agregar sección Work con experiencia profesional y proyectos (usando tu información)",
+    "Agregar sección About con tu resumen profesional y skills",
+    "Agregar sección Contact con botones modernos para email y LinkedIn",
+    "Asegurar responsividad y scroll animado entre secciones",
+    "Permitir fácil edición de datos desde un archivo externo (data.json)",
+    "Ajustar detalles visuales y colores a tu preferencia"
+  ]
+}

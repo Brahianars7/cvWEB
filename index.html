@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahian Rincon Sanchez –  Senior QA Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">BRS</a>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-inner">
+            <p class="hero-greeting">Hi 👋, my name is</p>
+            <h1 class="hero-name" id="nombre">Brahian Rincon Sanchez</h1>
+            <h2 class="hero-title" id="titulo">Senior QA Engineer | Automation | ISTQB</h2>
+            <p class="hero-summary" id="summary">Loading...</p>
+            <div class="hero-cta">
+                <a href="#work" class="btn-primary">See My Work</a>
+                <a href="#contact" class="btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work / Portfolio -->
+    <section id="work" class="section">
+        <div class="section-inner">
+            <h2 class="section-heading"><span class="section-number">01.</span> Work / Portfolio</h2>
+            <p class="section-description">Here are some of my automation projects and QA work,This Site was Also created by me .</p>
+            <div class="projects-grid" id="projects-list">
+                <div class="project-card flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-icon">🤖</div>
+                            <h3 class="project-title">Postman Automation</h3>
+                            <p class="project-desc">A Web Applications that allow User to Create automatic Test Cases  based on API specifications.</p>
+                            <div class="project-tags">
+                                <span>Postman</span><span>Java</span><span>REST</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <video controls preload="metadata" poster="https://via.placeholder.com/320x180?text=API+Demo">
+                                <source src="videos/2026-03-12 16-28-46.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-icon">🖥️</div>
+                            <h3 class="project-title">PowerAutomate Notification System</h3>
+                            <p class="project-desc">A system that automates incident notifications using Power Automate, improving response times and efficiency.</p>
+                            <div class="project-tags">
+                                <span>Power Automate</span><span>Teams</span><span>Automation</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <video controls preload="metadata" poster="https://via.placeholder.com/320x180?text=UI+Demo">
+                                <source src="videos/2026-03-12 16-50-21.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="project-card flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-icon">☁️</div>
+                            <h3 class="project-title">AWS Cloud Testing</h3>
+                            <p class="project-desc">Testing cloud-based infrastructure and services on AWS, including automated deployment validation.</p>
+                            <div class="project-tags">
+                                <span>AWS</span><span>DevOps</span><span>Automation</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <video controls poster="https://via.placeholder.com/320x180?text=Cloud+Demo">
+                                <source src="videos/cloud-demo.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="section-inner">
+            <h2 class="section-heading"><span class="section-number">02.</span> Experience</h2>
+            <div class="work-list" id="experience-list">
+                <!-- Loaded from data.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="section-inner">
+            <div class="about-grid">
+                <div class="about-skills">
+                    <h3 class="subsection-title">Skills &amp; Tools</h3>
+                    <div class="skills-grid" id="skills-list">
+                        <!-- Loaded from data.json -->
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-heading"><span class="section-number">03.</span> About Me</h2>
+                    <p id="about-summary2">Loading...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section">
+        <div class="section-inner">
+            <h2 class="section-heading"><span class="section-number">04.</span> Education &amp; Certifications</h2>
+            <ul class="edu-list" id="education-list">
+                <!-- Loaded from data.json -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-contact">
+        <div class="section-inner contact-inner">
+            <h2 class="section-heading"><span class="section-number">05.</span> Contact</h2>
+            <p class="contact-text">I'm always open to new opportunities and collaborations,my goal is to contribute to meaningful projects and make a positive impact. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="#" id="email-btn" class="btn-primary">Send Me an Email</a>
+                <a href="#" id="linkedin-btn" class="btn-primary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Brahian Rincon Sanchez</p>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-modal" title="Close">&times;</button>
+            <h2>Contact Me</h2>
+            <div class="modal-links">
+                <p><strong>Email:</strong> <a id="modal-email" href="#">bars.brahian@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a id="modal-linkedin" href="#" target="_blank">LinkedIn Profile</a></p>
+            </div>
+            <form id="contact-form" class="modal-form" autocomplete="off">
+                <label for="form-name">Name</label>
+                <input type="text" id="form-name" name="name" required>
+                <label for="form-email">Your Email</label>
+                <input type="email" id="form-email" name="email" required>
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn-primary">Send Email</button>
+            </form>
+        </div>
+        <div class="modal-backdrop"></div>
+    </div>
+
+    <!-- Say Hello Modal (WhatsApp style) -->
+    <div id="hello-modal" class="modal">
+        <div class="modal-content hello-chat-modal">
+            <button class="modal-close" id="close-hello-modal" title="Close">&times;</button>
+            <div class="hello-chat-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="hello-chat-avatar">
+                <div>
+                    <div class="hello-chat-title">Contact Brahian</div>
+                    <div class="hello-chat-status">Online</div>
+                </div>
+            </div>
+            <div class="hello-chat-body">
+                <div class="hello-chat-bubble hello-chat-bubble-in">
+                    <span>Hi! 👋 You can contact me by phone or email.<br><br><strong>Phone:</strong> <a href="tel:9802107572" class="hello-chat-link">9802107572</a></span>
+                </div>
+                <div class="hello-chat-bubble hello-chat-bubble-out">
+                    <span>How can I send you an email?</span>
+                </div>
+                <div class="hello-chat-bubble hello-chat-bubble-in">
+                    <span>Just click the button below and you can send me an email directly!</span>
+                </div>
+            </div>
+            <a id="hello-mail-btn" class="btn-primary hello-chat-btn" href="#">Send Email</a>
+        </div>
+        <div class="modal-backdrop"></div>
+    </div>
+
+    <script>
+
+    // Flip card logic for project cards
+    document.querySelectorAll('.flip-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+            // Prevent flipping if clicking on video controls
+            if (e.target.tagName === 'VIDEO' || e.target.closest('video')) return;
+            // Unflip any other flipped card
+            document.querySelectorAll('.flip-card.flipped').forEach(other => {
+                if (other !== card) {
+                    other.classList.remove('flipped');
+                    // Pause video on the back if present
+                    const vid = other.querySelector('.flip-card-back video');
+                    if (vid) { vid.pause(); vid.currentTime = 0; }
+                }
+            });
+            // Toggle this card
+            card.classList.toggle('flipped');
+            // If flipping to back, do nothing (user must click play)
+            // If flipping to front, pause video
+            if (!card.classList.contains('flipped')) {
+                const vid = card.querySelector('.flip-card-back video');
+                if (vid) { vid.pause(); vid.currentTime = 0; }
+            }
+        });
+    });
+
+    // Load data from data.json
+    fetch('data.json')
+        .then(r => r.json())
+        .then(data => {
+            document.getElementById('nombre').textContent = data.name;
+            document.getElementById('titulo').textContent = data.title;
+            document.getElementById('summary').innerHTML = data.summary;
+            document.getElementById('about-summary2').innerHTML = data.summary2;
+            document.getElementById('email-btn').href = 'mailto:' + data.email;
+            document.getElementById('linkedin-btn').href = data.linkedin;
+            document.getElementById('modal-email').href = 'mailto:' + data.email;
+            document.getElementById('modal-email').textContent = data.email;
+            document.getElementById('modal-linkedin').href = data.linkedin;
+            // Skills
+            const skillsEl = document.getElementById('skills-list');
+            skillsEl.innerHTML = '';
+            data.skills.forEach(skill => {
+                const span = document.createElement('span');
+                span.className = 'skill-tag';
+                span.textContent = skill;
+                skillsEl.appendChild(span);
+            });
+            // Experience
+            const expEl = document.getElementById('experience-list');
+            expEl.innerHTML = '';
+            data.experience.forEach((job, i) => {
+                const card = document.createElement('div');
+                card.className = 'work-card flip-card';
+                card.style.animationDelay = (i * 0.15) + 's';
+                let achievementsHTML = '';
+                if (job.achievements && Array.isArray(job.achievements) && job.achievements.length > 0) {
+                    achievementsHTML = '<ul class="achievements-list">' + job.achievements.map(a => `<li>${a}</li>`).join('') + '</ul>';
+                } else {
+                    achievementsHTML = '<p>No achievements listed.</p>';
+                }
+                card.innerHTML =
+                    '<div class="flip-card-inner">' +
+                        '<div class="flip-card-front">' +
+                            '<div class="work-card-header">' +
+                                '<h3 class="work-company">' + job.company + '</h3>' +
+                                '<span class="work-period">' + job.period + '</span>' +
+                            '</div>' +
+                            '<p class="work-role">' + job.role + ' &middot; ' + job.location + '</p>' +
+                            '<ul class="work-details">' +
+                                job.details.map(function(d) { return '<li>' + d + '</li>'; }).join('') +
+                            '</ul>' +
+                        '</div>' +
+                        '<div class="flip-card-back">' +
+                            '<h4>Achievements</h4>' +
+                            achievementsHTML +
+                        '</div>' +
+                    '</div>';
+                expEl.appendChild(card);
+            });
+            // Education
+            const eduEl = document.getElementById('education-list');
+            eduEl.innerHTML = '';
+            data.education.forEach(item => {
+                const li = document.createElement('li');
+                li.innerHTML = item;
+                eduEl.appendChild(li);
+            });
+            // Re-observe new cards for animation
+            document.querySelectorAll('.work-card').forEach(el => observer.observe(el));
+                // Add flip event listeners to work cards after rendering
+                setTimeout(function() {
+                    document.querySelectorAll('.work-card.flip-card').forEach(card => {
+                        card.addEventListener('click', function(e) {
+                            if (e.target.tagName === 'A' || e.target.closest('a')) return;
+                            document.querySelectorAll('.work-card.flip-card.flipped').forEach(other => {
+                                if (other !== card) other.classList.remove('flipped');
+                            });
+                            card.classList.toggle('flipped');
+                        });
+                    });
+                }, 100);
+        });
+
+    // Modal logic
+    const modal = document.getElementById('contact-modal');
+    // Botón "Say Hello" (abre hello-modal siempre)
+    const sayHelloBtn = document.getElementById('email-btn');
+    const helloModal = document.getElementById('hello-modal');
+    if (sayHelloBtn && helloModal) {
+        sayHelloBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            helloModal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+        document.getElementById('close-hello-modal').onclick = () => {
+            helloModal.classList.remove('open');
+            document.body.style.overflow = '';
+        };
+        helloModal.querySelector('.modal-backdrop').onclick = () => {
+            helloModal.classList.remove('open');
+            document.body.style.overflow = '';
+        };
+        // Botón para enviar correo desde el modal
+        document.getElementById('hello-mail-btn').onclick = function(e) {
+            e.preventDefault();
+            helloModal.classList.remove('open');
+            modal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        };
+    }
+    // Botón LinkedIn (fuera del modal) y en el modal: acción por defecto (no tocar)
+    // Cerrar modal
+    document.getElementById('close-modal').onclick = () => {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+    };
+    modal.querySelector('.modal-backdrop').onclick = () => {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+    };
+    // Form logic
+    document.getElementById('contact-form').onsubmit = function(e) {
+        e.preventDefault();
+        const name = document.getElementById('form-name').value;
+        const email = document.getElementById('form-email').value;
+        const message = document.getElementById('form-message').value;
+        const mailto = `mailto:bars.brahian@gmail.com?subject=Contacto%20desde%20CV%20de%20${encodeURIComponent(name)}&body=Email:%20${encodeURIComponent(email)}%0A%0A${encodeURIComponent(message)}`;
+        window.location.href = mailto;
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+    };
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', e => {
+            const href = link.getAttribute('href');
+            // Solo hacer smooth scroll si el href es un id local y no es mailto ni externo
+            if (href && href.startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+
+    // Scroll reveal animations
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) entry.target.classList.add('visible');
+        });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('.section, .hero').forEach(el => observer.observe(el));
+
+    // Nav background on scroll
+    window.addEventListener('scroll', () => {
+        document.querySelector('.nav').classList.toggle('nav-scrolled', window.scrollY > 50);
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "name": "Brahian Rincon Sanchez",
+  "title": "Senior QA Engineer | Automation |Manual | ISTQB",
+  "email": "bars.brahian@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/BrahianRinconS",
+  "summary": "Over the Past <b>5+ years</b> , I’ve built my career as a QA Engineer, moving from manual testing into automation while discovering how much I enjoy ensuring reliable, high‑quality software, Leading team. I’ve worked with <b>REST API testing, UI and cross‑browser validation</b>, automation proces using Tools Like <b>Selenium, Karate,Postman</b>. And Agile/DevOps workflows, supported by my <b>ISTQB certification</b>. I also integrate <b>AI tools</b> into my daily work to optimize test Scenarios, speed up analysis, and improve efficiency.<b>I’m always learning, refining my skills, and finding better ways to deliver dependable results that meet user needs</b>. I’m excited to bring my passion for quality and automation expertise to new challenges and opportunities.",
+  "summary2": "I am a Colombian professional with a background in Chemical Engineering, but my path naturally moved toward the <strong>IT world</strong>. I am passionate about software testing, quality assurance, and the growing impact of AI tools in this field. <strong>Discipline is one of my strongest qualities</strong>, and it helps me stay focused, learn quickly, and adapt to new technologies with ease.I enjoy reading, philosophy, and collaborating with people from different areas. Over the years, I have strengthened my soft skills and leadership abilities, and I remain open to continuous growth. Outside of work, I am an amateur cyclist and a fan of long walks in the woods. <strong>I am always open to expanding my skills and contributing to testing teams that value curiosity and quality.</strong>",
+  "skills": [
+    "AI Tools for Testing",
+    "AWS cloud services",
+    "Postman / Newman",
+    "REST/SOAP APIs",
+    "JSON/XML",
+    "TestNG",
+    "Agile (Scrum)",
+    "STLC",
+    "DevOps CI/CD",
+    "Java",
+    "SQL",
+    "Regression Testing",
+    "Test Case Development",
+    "Git",
+    "Jira",
+    "AWS Testing",
+    "AI Tools (Copilot, Google AI Tools, Postman AI Tools)"
+  ],
+  "experience": [
+    {
+      "role": " Sr QA Automation Engineer",
+      "company": "Evertec Inc – SMX- Popular Bank of PR  ",
+      "location": "Remote, USA",
+      "period": "03/2023 – Present",
+      "details": [
+        "Leading the QA team during automation transition, mentoring junior testers.",
+        "Giving technical support, for troubleshooting and resolving complex issues.",
+        "Helping Migration from legacy to cloud APIs on AWS.",
+        "Implementing CI/CD automation pipelines.",
+        "Performed AI testing, reducing critical bugs by 20% and optimizing test scenarios."
+      ],
+      "achievements": [
+        "🤝 Mentored 5 junior QAs",
+        "✅ Implemented API automation tool reducing manual effort by 50%",
+        "🚀 Reduced Incidents Time response in 80%",
+        "🏆 Recognized as MVP of the Q4 2025"
+        
+      ]
+    },
+    {
+      "role": "Sr QA Analyst",
+      "company": "Capgemini – Liberty Communications PR",
+      "location": "Remote, USA",
+      "period": "2021 – 2023",
+      "details": [
+        "Executed Selenium UI and API testing for CRM/billing systems.",
+        "Reduced production defects by 30% through automation.",
+        "Managed JIRA test cases and bug tracking.",
+        "Identified and approve all initiatives before Production.",
+        "Implemented AI-driven test case generation, increasing coverage by 25%."
+      ],
+      "achievements": [
+        "🏆 Automated 200+ test cases Using Selenium and Postman",
+        "📈 Improved bug tracking process",
+        "✅ Implementation of QA framework Using Karate BDD",
+        "✅ Reduced production defects by 30% "
+      ]
+    },
+    {
+      "role": "QA Automation Tester",
+      "company": "Tata Consultancy Services – Bancolombia",
+      "location": "Remote, Colombia",
+      "period": "2020 – 2021",
+      "details": [
+        "Create automation fraamework from scratch using Java and selenium.",
+        "Implemented Azure DevOps pipelines for test automation.",
+        "Applied BDD with Cucumber for test case development.",
+        "Collaborated with developers to resolve issues and improve testability."
+      ],
+      "achievements": [
+        "✅ Developed first automated regression suite",
+        "🤖 Integrated Azure DevOps for CI/CD automation",
+        "💡 Proposed new QA documentation standards",
+        "🤝 Improved bug resolution in production using automated pipelines"
+      ]
+    }
+  ],
+  "education": [
+    "<b>🏆ISTQB Certified Tester</b> – (Mar 2025)",
+    "<b>🤖Google AI Basics</b> – Coursera (Dec 2024)",
+    "<b>🏆QA Bootcamp</b> – Tata Consultancy Services (Jun 2020)",
+    "<b>🎓Bachelor in Engineering</b> – University of Cartagena, Colombia (2016 – 2020)"
+  ]
+}
