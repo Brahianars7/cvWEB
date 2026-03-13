@@ -80,6 +80,7 @@
     top: 0;
     left: 0;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
@@ -106,11 +107,15 @@
 }
 
 .flip-card-back video {
+    display: block;
     width: 100%;
     max-width: 360px;
+    height: auto;
     border-radius: 10px;
+    background: #0f172a;
     box-shadow: 0 4px 24px rgba(0,0,0,0.18);
     outline: none;
+    transform: translateZ(0);
 }
 /* --- WhatsApp Chat Modal Style --- */
 .hello-chat-modal {
